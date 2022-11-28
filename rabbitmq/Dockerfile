@@ -1,4 +1,4 @@
-FROM rabbitmq:3.8
+FROM rabbitmq:3.11.3
 
 WORKDIR /usr/local/bin/
 ADD ./init.sh .
