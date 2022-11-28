@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: "rabbitmq-3.8"
+    container_name: "rabbitmq-3.11.3"
     restart: always
     ports:
     - 5672:5672
